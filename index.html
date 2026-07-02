@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio website of Utsav Nandy, a frontend developer and UI/UX designer showcasing projects, skills, and contact information.">
+  <meta name="keywords" content="portfolio, frontend developer, UI UX designer, HTML5, accessibility, web developer">
+  <meta name="author" content="Utsav Nandy">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Utsav Nandy | Portfolio">
+  <meta property="og:description" content="Accessible and semantic HTML5 personal portfolio website.">
+  <meta property="og:type" content="website">
+  <title>Utsav Nandy | Accessible Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="index.html" aria-label="Utsav Nandy home page">Utsav Nandy</a>
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Frontend Developer & UI/UX Designer</h1>
+      <p>I build clean, responsive, accessible, and user-friendly web experiences using modern HTML5 standards.</p>
+      <a class="button" href="projects.html">View My Projects</a>
+    </section>
+
+    <section aria-labelledby="skills-title" class="card-section">
+      <h2 id="skills-title">Core Skills</h2>
+      <div class="cards">
+        <article class="card" aria-labelledby="skill-html">
+          <h3 id="skill-html">Semantic HTML5</h3>
+          <p>Structured pages using header, nav, main, section, article, aside, and footer elements.</p>
+        </article>
+        <article class="card" aria-labelledby="skill-css">
+          <h3 id="skill-css">Responsive CSS</h3>
+          <p>Mobile-friendly layouts with accessible color contrast and clear focus indicators.</p>
+        </article>
+        <article class="card" aria-labelledby="skill-accessibility">
+          <h3 id="skill-accessibility">Accessibility</h3>
+          <p>Keyboard navigation, ARIA labels, semantic landmarks, and screen-reader friendly forms.</p>
+        </article>
+      </div>
+    </section>
+
+    <aside class="highlight" aria-labelledby="availability-title">
+      <h2 id="availability-title">Internship Availability</h2>
+      <p>Available for frontend development, UI/UX design, and web accessibility tasks.</p>
+    </aside>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p>&copy; 2026 Utsav Nandy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
