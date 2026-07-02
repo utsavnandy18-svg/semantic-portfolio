@@ -30,3 +30,14 @@ Open `index.html` in any browser.
 
 ## Lighthouse Target
 Designed to achieve 100 Accessibility and SEO scores in Lighthouse.
+
+
+## Advanced CSS3 Responsive Architecture Update
+
+This version adds:
+- CSS Grid for page-level two-dimensional layouts.
+- Flexbox for navigation, cards, buttons, and form alignment.
+- Mobile-first responsive media queries for mobile, tablet, and desktop.
+- CSS variables for theme colors, spacing, radius, shadows, and typography.
+- Light/dark mode support through CSS custom properties, prefers-color-scheme, and an accessible theme toggle.
+- Accessible focus-visible states and reduced-motion support.

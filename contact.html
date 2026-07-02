@@ -11,6 +11,7 @@
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  <input class="theme-switch" type="checkbox" id="theme-switch" aria-label="Enable dark theme">
   <header class="site-header" role="banner">
     <nav class="navbar" aria-label="Main navigation">
       <a class="logo" href="index.html">Utsav Nandy</a>
@@ -20,10 +21,11 @@
         <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html" aria-current="page">Contact</a></li>
       </ul>
+      <label class="theme-toggle" for="theme-switch" aria-hidden="true">Dark Mode</label>
     </nav>
   </header>
 
-  <main id="main-content" tabindex="-1">
+  <main id="main-content" class="page-layout" tabindex="-1">
     <section aria-labelledby="contact-title" class="page-section">
       <h1 id="contact-title">Contact Me</h1>
       <p>Use the form below to send a message. All fields are keyboard accessible and properly labelled.</p>
